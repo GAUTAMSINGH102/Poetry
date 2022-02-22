@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".UpdatePoetry">
+
+    <EditText
+        android:id="@+id/update_poetry_data_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="60dp"
+        android:inputType="text"
+        android:hint="Add Update Poetry Data"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/edit_text_bg_design"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/update_data_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="Update"/>
+
+</LinearLayout>
